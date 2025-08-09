@@ -6,8 +6,10 @@ def decryption(filePath, replacementNum):
     outputFileNameLength = len(outputFileName)
     outputFileName = outputFileName[:outputFileNameLength - 4]  # Slicing the file name to extract the name before .txt extension.
     outputFileName += "Decrypted.txt"  # concatenating "Decrypted" to the file name to make it the output file name
+    filePathToList[-1] = outputFileName # adding the edited name to the path list
+    outputFilePath = "//".join(filePathToList) # converting the list path to string path for input in the open() function
     CipherTextFile = open(filePath)  # opening Cipher text file in read mode
-    outputFile = open(outputFileName, "w")  # Creating and opening output file in write mode
+    outputFile = open(outputFilePath, "w")  # Creating and opening output file in write mode
     for readText in CipherTextFile.read():
         PlainText = chr(ord(readText) - replacementNum)  # Converting Cipher text into plain text by converting alphabet into ascii and subtracting the number of places and then again converting it into alphabet
         outputFile.write(PlainText)
