@@ -79,7 +79,7 @@ Main menu of the program
 
 
 Encrypting a text file
-
+![](images/image1.png)
 
 Decrypting the file
 
