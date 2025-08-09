@@ -80,20 +80,25 @@ Main menu of the program
 
 Encrypting a text file
 
+![](images/image2.png)
 
 Decrypting the file
 
+![](images/image3.png)
 
 ## Results
 
 Before Encryption
 
+![](images/image4.png)
 
 After Encryption
 
+![](images/image5.png)
 
 After Decryption
 
+![](images/image6.png)
 
 ## File Structure
 
