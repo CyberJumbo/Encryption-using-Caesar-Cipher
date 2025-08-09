@@ -20,7 +20,7 @@ while(True):
             print("Enter the full path of the file")
             plainTextFilePath = input()
             convertedPlainTextFilePath = pc.convertPath(plainTextFilePath)
-            print("Enter the number for with which you want to do the encryption")
+            print("Enter the number with which you want to do the encryption")
             encryptionReplacementNum = int(input())
             try:
                 ce.encryption(convertedPlainTextFilePath,encryptionReplacementNum)
