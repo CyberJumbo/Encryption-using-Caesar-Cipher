@@ -78,7 +78,7 @@ You will see the project command line menu from where you can navigate to do the
 
 Main menu of the program
 
-![Main Menu](images/image1.png)
+![](images/image1.png)
 
 Encrypting a text file
 
