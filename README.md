@@ -1,5 +1,18 @@
 # ENCRYPTION PROJECT BASED ON CAESAR CIPHER ALGORITHM
 
+> A simple command-line text file encryption tool using the Caesar cipher, which shifts each character’s ASCII value by a variable number of positions for encryption and decryption
+
+## Table of Contents
+- [What is a Caesar cipher algorithm?](#What-is-a-Caesar-cipher-algorithm)
+- [What this project does?](#What-this-project-does)
+- [Features](#Features)
+- [Requirements](#Requirements)
+- [How to Download](#How-to-Download)
+- [Steps to run the program on your system](#Steps-to-run-the-program-on-your-system)
+- [Working of the project](#Working-of-the-project)
+- [File Structure](#File-Structure)
+- [Notes](#Notes)
+
 ## What is a Caesar cipher algorithm?
 
 The **Caesar cipher** is one of the simplest and oldest encryption algorithms, attributed to Julius Caesar, who reportedly used it to protect military messages.
